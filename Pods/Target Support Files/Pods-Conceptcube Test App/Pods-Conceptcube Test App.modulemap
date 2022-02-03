@@ -1,0 +1,6 @@
+framework module Pods_Conceptcube_Test_App {
+  umbrella header "Pods-Conceptcube Test App-umbrella.h"
+
+  export *
+  module * { export * }
+}

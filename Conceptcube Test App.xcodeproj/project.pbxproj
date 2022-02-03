@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9A52CDD527AAE194004224B3 /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A52CDD427AAE194004224B3 /* CustomView.swift */; };
+		9A52CDD727AAE23A004224B3 /* face_up.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A52CDD627AAE23A004224B3 /* face_up.png */; };
+		9A52CE7827AAEEBB004224B3 /* CardsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A52CE7727AAEEBB004224B3 /* CardsModel.swift */; };
+		9A52CE9E27ABC493004224B3 /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9A52CE9D27ABC493004224B3 /* background.jpg */; };
+		9A52CEA127ABC99F004224B3 /* logout.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A52CE9F27ABC99F004224B3 /* logout.png */; };
+		9A52CEA427ABCDEB004224B3 /* refresh.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A52CEA327ABCDEB004224B3 /* refresh.png */; };
+		9A52CEA627ABCEF0004224B3 /* reload.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A52CEA527ABCEF0004224B3 /* reload.png */; };
+		9A5AC1C927A81AA800F6A0BC /* login_bottom.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A5AC1C527A81AA800F6A0BC /* login_bottom.png */; };
+		9A5AC1CA27A81AA800F6A0BC /* signup_top.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A5AC1C627A81AA800F6A0BC /* signup_top.png */; };
+		9A5AC1CB27A81AA800F6A0BC /* main_bottom.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A5AC1C727A81AA800F6A0BC /* main_bottom.png */; };
+		9A5AC1CC27A81AA800F6A0BC /* main_top.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A5AC1C827A81AA800F6A0BC /* main_top.png */; };
+		9A5AC1CE27A81B1900F6A0BC /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A5AC1CD27A81B1900F6A0BC /* Constants.swift */; };
+		9A5AC1D327A81D1000F6A0BC /* chat.svg in Resources */ = {isa = PBXBuildFile; fileRef = 9A5AC1D027A81D1000F6A0BC /* chat.svg */; };
+		9A75DBBA27AC2E67005B9FC7 /* cards in Resources */ = {isa = PBXBuildFile; fileRef = 9A75DBB927AC2E67005B9FC7 /* cards */; };
+		9A99F9EA27A8163D0021E550 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A99F9E927A8163D0021E550 /* AppDelegate.swift */; };
+		9A99F9EC27A8163D0021E550 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A99F9EB27A8163D0021E550 /* SceneDelegate.swift */; };
+		9A99F9F127A8163D0021E550 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A99F9EF27A8163D0021E550 /* Main.storyboard */; };
+		9A99F9F327A8163E0021E550 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A99F9F227A8163E0021E550 /* Assets.xcassets */; };
+		9A99F9F627A8163E0021E550 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A99F9F427A8163E0021E550 /* LaunchScreen.storyboard */; };
+		9A99F9FF27A818150021E550 /* LoginScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A99F9FE27A818150021E550 /* LoginScreenViewController.swift */; };
+		9AAF9EC627A83C75008BCB7B /* signup.png in Resources */ = {isa = PBXBuildFile; fileRef = 9AAF9EC427A83C75008BCB7B /* signup.png */; };
+		9AAF9EC727A83C75008BCB7B /* login.png in Resources */ = {isa = PBXBuildFile; fileRef = 9AAF9EC527A83C75008BCB7B /* login.png */; };
+		9AAF9ECD27A953BB008BCB7B /* username_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 9AAF9ECC27A953BB008BCB7B /* username_icon.png */; };
+		9AAF9ECF27A95457008BCB7B /* password_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 9AAF9ECE27A95457008BCB7B /* password_icon.png */; };
+		9AAF9ED127AA7561008BCB7B /* SignupScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AAF9ED027AA7561008BCB7B /* SignupScreenViewController.swift */; };
+		9ABA6C4927AA96E300CA955D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9ABA6C4827AA96E300CA955D /* GoogleService-Info.plist */; };
+		9ABA6C4C27AAB82F00CA955D /* cross.png in Resources */ = {isa = PBXBuildFile; fileRef = 9ABA6C4A27AAB82E00CA955D /* cross.png */; };
+		9ABA6C4D27AAB82F00CA955D /* tick.png in Resources */ = {isa = PBXBuildFile; fileRef = 9ABA6C4B27AAB82F00CA955D /* tick.png */; };
+		9ABA6C4F27AABC7900CA955D /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ABA6C4E27AABC7900CA955D /* MainViewController.swift */; };
+		9AEBBA0D27AA924E001C91AC /* email_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 9AEBBA0B27AA924E001C91AC /* email_icon.png */; };
+		9AEBBA0E27AA924E001C91AC /* calendar_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 9AEBBA0C27AA924E001C91AC /* calendar_icon.png */; };
+		CB4559DCCDCE101BF7AB97EC /* Pods_Conceptcube_Test_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EA33D48532DEEB16D422241 /* Pods_Conceptcube_Test_App.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		318AE8D49BE385F4D731CFC0 /* Pods-Conceptcube Test App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Conceptcube Test App.release.xcconfig"; path = "Target Support Files/Pods-Conceptcube Test App/Pods-Conceptcube Test App.release.xcconfig"; sourceTree = "<group>"; };
+		6EA33D48532DEEB16D422241 /* Pods_Conceptcube_Test_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Conceptcube_Test_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A52CDD427AAE194004224B3 /* CustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
+		9A52CDD627AAE23A004224B3 /* face_up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = face_up.png; sourceTree = "<group>"; };
+		9A52CE7727AAEEBB004224B3 /* CardsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsModel.swift; sourceTree = "<group>"; };
+		9A52CE9D27ABC493004224B3 /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background.jpg; sourceTree = "<group>"; };
+		9A52CE9F27ABC99F004224B3 /* logout.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logout.png; sourceTree = "<group>"; };
+		9A52CEA327ABCDEB004224B3 /* refresh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = refresh.png; sourceTree = "<group>"; };
+		9A52CEA527ABCEF0004224B3 /* reload.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = reload.png; sourceTree = "<group>"; };
+		9A5AC1C527A81AA800F6A0BC /* login_bottom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = login_bottom.png; sourceTree = "<group>"; };
+		9A5AC1C627A81AA800F6A0BC /* signup_top.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = signup_top.png; sourceTree = "<group>"; };
+		9A5AC1C727A81AA800F6A0BC /* main_bottom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = main_bottom.png; sourceTree = "<group>"; };
+		9A5AC1C827A81AA800F6A0BC /* main_top.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = main_top.png; sourceTree = "<group>"; };
+		9A5AC1CD27A81B1900F6A0BC /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		9A5AC1D027A81D1000F6A0BC /* chat.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = chat.svg; sourceTree = "<group>"; };
+		9A75DBB927AC2E67005B9FC7 /* cards */ = {isa = PBXFileReference; lastKnownFileType = folder; path = cards; sourceTree = "<group>"; };
+		9A99F9E627A8163D0021E550 /* Conceptcube Test App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Conceptcube Test App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A99F9E927A8163D0021E550 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9A99F9EB27A8163D0021E550 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		9A99F9F027A8163D0021E550 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9A99F9F227A8163E0021E550 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9A99F9F527A8163E0021E550 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9A99F9F727A8163E0021E550 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A99F9FE27A818150021E550 /* LoginScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreenViewController.swift; sourceTree = "<group>"; };
+		9AAF9EC427A83C75008BCB7B /* signup.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = signup.png; sourceTree = "<group>"; };
+		9AAF9EC527A83C75008BCB7B /* login.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = login.png; sourceTree = "<group>"; };
+		9AAF9ECC27A953BB008BCB7B /* username_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = username_icon.png; sourceTree = "<group>"; };
+		9AAF9ECE27A95457008BCB7B /* password_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = password_icon.png; sourceTree = "<group>"; };
+		9AAF9ED027AA7561008BCB7B /* SignupScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupScreenViewController.swift; sourceTree = "<group>"; };
+		9ABA6C4827AA96E300CA955D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		9ABA6C4A27AAB82E00CA955D /* cross.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cross.png; sourceTree = "<group>"; };
+		9ABA6C4B27AAB82F00CA955D /* tick.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tick.png; sourceTree = "<group>"; };
+		9ABA6C4E27AABC7900CA955D /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		9AEBBA0B27AA924E001C91AC /* email_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = email_icon.png; sourceTree = "<group>"; };
+		9AEBBA0C27AA924E001C91AC /* calendar_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = calendar_icon.png; sourceTree = "<group>"; };
+		D314A2610B4F98E831F257F1 /* Pods-Conceptcube Test App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Conceptcube Test App.debug.xcconfig"; path = "Target Support Files/Pods-Conceptcube Test App/Pods-Conceptcube Test App.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9A99F9E327A8163C0021E550 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB4559DCCDCE101BF7AB97EC /* Pods_Conceptcube_Test_App.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		369338CE6A4A09EA238010E8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6EA33D48532DEEB16D422241 /* Pods_Conceptcube_Test_App.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9A52CE7627AAEEAD004224B3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9A52CE7727AAEEBB004224B3 /* CardsModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9A5AC1C427A81A9300F6A0BC /* images */ = {
+			isa = PBXGroup;
+			children = (
+				9AAF9ECE27A95457008BCB7B /* password_icon.png */,
+				9A5AC1C527A81AA800F6A0BC /* login_bottom.png */,
+				9A5AC1C727A81AA800F6A0BC /* main_bottom.png */,
+				9AAF9ECC27A953BB008BCB7B /* username_icon.png */,
+				9AEBBA0C27AA924E001C91AC /* calendar_icon.png */,
+				9A52CE9F27ABC99F004224B3 /* logout.png */,
+				9A52CE9D27ABC493004224B3 /* background.jpg */,
+				9A52CEA527ABCEF0004224B3 /* reload.png */,
+				9AEBBA0B27AA924E001C91AC /* email_icon.png */,
+				9ABA6C4A27AAB82E00CA955D /* cross.png */,
+				9A52CEA327ABCDEB004224B3 /* refresh.png */,
+				9ABA6C4B27AAB82F00CA955D /* tick.png */,
+				9A5AC1D027A81D1000F6A0BC /* chat.svg */,
+				9AAF9EC527A83C75008BCB7B /* login.png */,
+				9AAF9EC427A83C75008BCB7B /* signup.png */,
+				9A5AC1C827A81AA800F6A0BC /* main_top.png */,
+				9A5AC1C627A81AA800F6A0BC /* signup_top.png */,
+				9A52CDD627AAE23A004224B3 /* face_up.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		9A99F9DD27A8163C0021E550 = {
+			isa = PBXGroup;
+			children = (
+				9A99F9E827A8163D0021E550 /* Conceptcube Test App */,
+				9A99F9E727A8163D0021E550 /* Products */,
+				B18CD9214F947E3A43ECAE7C /* Pods */,
+				369338CE6A4A09EA238010E8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9A99F9E727A8163D0021E550 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9A99F9E627A8163D0021E550 /* Conceptcube Test App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9A99F9E827A8163D0021E550 /* Conceptcube Test App */ = {
+			isa = PBXGroup;
+			children = (
+				9ABA6C4827AA96E300CA955D /* GoogleService-Info.plist */,
+				9A99F9E927A8163D0021E550 /* AppDelegate.swift */,
+				9A99F9EB27A8163D0021E550 /* SceneDelegate.swift */,
+				9A75DBB927AC2E67005B9FC7 /* cards */,
+				9A5AC1C427A81A9300F6A0BC /* images */,
+				9A99F9EF27A8163D0021E550 /* Main.storyboard */,
+				9A52CE7627AAEEAD004224B3 /* Model */,
+				9A99F9FD27A817FA0021E550 /* View */,
+				9A99F9F227A8163E0021E550 /* Assets.xcassets */,
+				9A5AC1CD27A81B1900F6A0BC /* Constants.swift */,
+				9A99F9F427A8163E0021E550 /* LaunchScreen.storyboard */,
+				9A99F9F727A8163E0021E550 /* Info.plist */,
+			);
+			path = "Conceptcube Test App";
+			sourceTree = "<group>";
+		};
+		9A99F9FD27A817FA0021E550 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9A99F9FE27A818150021E550 /* LoginScreenViewController.swift */,
+				9AAF9ED027AA7561008BCB7B /* SignupScreenViewController.swift */,
+				9ABA6C4E27AABC7900CA955D /* MainViewController.swift */,
+				9A52CDD427AAE194004224B3 /* CustomView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B18CD9214F947E3A43ECAE7C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D314A2610B4F98E831F257F1 /* Pods-Conceptcube Test App.debug.xcconfig */,
+				318AE8D49BE385F4D731CFC0 /* Pods-Conceptcube Test App.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9A99F9E527A8163C0021E550 /* Conceptcube Test App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A99F9FA27A8163E0021E550 /* Build configuration list for PBXNativeTarget "Conceptcube Test App" */;
+			buildPhases = (
+				B551C0A64F51E1EE6C4A6EBF /* [CP] Check Pods Manifest.lock */,
+				9A99F9E227A8163C0021E550 /* Sources */,
+				9A99F9E327A8163C0021E550 /* Frameworks */,
+				9A99F9E427A8163C0021E550 /* Resources */,
+				4C9F85249C8A912B384981BD /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Conceptcube Test App";
+			productName = "Conceptcube Test App";
+			productReference = 9A99F9E627A8163D0021E550 /* Conceptcube Test App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9A99F9DE27A8163C0021E550 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1170;
+				LastUpgradeCheck = 1170;
+				ORGANIZATIONNAME = "Dinh Quy";
+				TargetAttributes = {
+					9A99F9E527A8163C0021E550 = {
+						CreatedOnToolsVersion = 11.7;
+					};
+				};
+			};
+			buildConfigurationList = 9A99F9E127A8163C0021E550 /* Build configuration list for PBXProject "Conceptcube Test App" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9A99F9DD27A8163C0021E550;
+			productRefGroup = 9A99F9E727A8163D0021E550 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9A99F9E527A8163C0021E550 /* Conceptcube Test App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9A99F9E427A8163C0021E550 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A5AC1C927A81AA800F6A0BC /* login_bottom.png in Resources */,
+				9A52CE9E27ABC493004224B3 /* background.jpg in Resources */,
+				9A52CEA127ABC99F004224B3 /* logout.png in Resources */,
+				9AAF9EC727A83C75008BCB7B /* login.png in Resources */,
+				9ABA6C4927AA96E300CA955D /* GoogleService-Info.plist in Resources */,
+				9A5AC1D327A81D1000F6A0BC /* chat.svg in Resources */,
+				9A52CEA627ABCEF0004224B3 /* reload.png in Resources */,
+				9AAF9EC627A83C75008BCB7B /* signup.png in Resources */,
+				9AEBBA0E27AA924E001C91AC /* calendar_icon.png in Resources */,
+				9ABA6C4C27AAB82F00CA955D /* cross.png in Resources */,
+				9A52CDD727AAE23A004224B3 /* face_up.png in Resources */,
+				9AAF9ECF27A95457008BCB7B /* password_icon.png in Resources */,
+				9A52CEA427ABCDEB004224B3 /* refresh.png in Resources */,
+				9A99F9F627A8163E0021E550 /* LaunchScreen.storyboard in Resources */,
+				9A5AC1CA27A81AA800F6A0BC /* signup_top.png in Resources */,
+				9A5AC1CB27A81AA800F6A0BC /* main_bottom.png in Resources */,
+				9AAF9ECD27A953BB008BCB7B /* username_icon.png in Resources */,
+				9ABA6C4D27AAB82F00CA955D /* tick.png in Resources */,
+				9AEBBA0D27AA924E001C91AC /* email_icon.png in Resources */,
+				9A99F9F327A8163E0021E550 /* Assets.xcassets in Resources */,
+				9A99F9F127A8163D0021E550 /* Main.storyboard in Resources */,
+				9A5AC1CC27A81AA800F6A0BC /* main_top.png in Resources */,
+				9A75DBBA27AC2E67005B9FC7 /* cards in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4C9F85249C8A912B384981BD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Conceptcube Test App/Pods-Conceptcube Test App-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Conceptcube Test App/Pods-Conceptcube Test App-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Conceptcube Test App/Pods-Conceptcube Test App-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B551C0A64F51E1EE6C4A6EBF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Conceptcube Test App-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9A99F9E227A8163C0021E550 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A99F9EA27A8163D0021E550 /* AppDelegate.swift in Sources */,
+				9A52CE7827AAEEBB004224B3 /* CardsModel.swift in Sources */,
+				9A99F9EC27A8163D0021E550 /* SceneDelegate.swift in Sources */,
+				9A99F9FF27A818150021E550 /* LoginScreenViewController.swift in Sources */,
+				9A52CDD527AAE194004224B3 /* CustomView.swift in Sources */,
+				9ABA6C4F27AABC7900CA955D /* MainViewController.swift in Sources */,
+				9A5AC1CE27A81B1900F6A0BC /* Constants.swift in Sources */,
+				9AAF9ED127AA7561008BCB7B /* SignupScreenViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9A99F9EF27A8163D0021E550 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9A99F9F027A8163D0021E550 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9A99F9F427A8163E0021E550 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9A99F9F527A8163E0021E550 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9A99F9F827A8163E0021E550 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9A99F9F927A8163E0021E550 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9A99F9FB27A8163E0021E550 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D314A2610B4F98E831F257F1 /* Pods-Conceptcube Test App.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 723B9C4686;
+				INFOPLIST_FILE = "Conceptcube Test App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dinhqui.ez.Conceptcube-Test-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9A99F9FC27A8163E0021E550 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 318AE8D49BE385F4D731CFC0 /* Pods-Conceptcube Test App.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 723B9C4686;
+				INFOPLIST_FILE = "Conceptcube Test App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dinhqui.ez.Conceptcube-Test-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9A99F9E127A8163C0021E550 /* Build configuration list for PBXProject "Conceptcube Test App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A99F9F827A8163E0021E550 /* Debug */,
+				9A99F9F927A8163E0021E550 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A99F9FA27A8163E0021E550 /* Build configuration list for PBXNativeTarget "Conceptcube Test App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A99F9FB27A8163E0021E550 /* Debug */,
+				9A99F9FC27A8163E0021E550 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9A99F9DE27A8163C0021E550 /* Project object */;
+}
