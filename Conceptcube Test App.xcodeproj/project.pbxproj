@@ -154,17 +154,13 @@
 		9A99F9E827A8163D0021E550 /* Conceptcube Test App */ = {
 			isa = PBXGroup;
 			children = (
-				9ABA6C4827AA96E300CA955D /* GoogleService-Info.plist */,
 				9A99F9E927A8163D0021E550 /* AppDelegate.swift */,
 				9A99F9EB27A8163D0021E550 /* SceneDelegate.swift */,
-				9A75DBB927AC2E67005B9FC7 /* cards */,
-				9A5AC1C427A81A9300F6A0BC /* images */,
-				9A99F9EF27A8163D0021E550 /* Main.storyboard */,
-				9A52CE7627AAEEAD004224B3 /* Model */,
-				9A99F9FD27A817FA0021E550 /* View */,
-				9A99F9F227A8163E0021E550 /* Assets.xcassets */,
 				9A5AC1CD27A81B1900F6A0BC /* Constants.swift */,
-				9A99F9F427A8163E0021E550 /* LaunchScreen.storyboard */,
+				9A52CE7627AAEEAD004224B3 /* Model */,
+				B52F7EE527B2D0030004E424 /* ViewControllers */,
+				9A99F9FD27A817FA0021E550 /* View */,
+				B52F7EE627B2D0220004E424 /* Resource */,
 				9A99F9F727A8163E0021E550 /* Info.plist */,
 			);
 			path = "Conceptcube Test App";
@@ -173,9 +169,6 @@
 		9A99F9FD27A817FA0021E550 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				9A99F9FE27A818150021E550 /* LoginScreenViewController.swift */,
-				9AAF9ED027AA7561008BCB7B /* SignupScreenViewController.swift */,
-				9ABA6C4E27AABC7900CA955D /* MainViewController.swift */,
 				9A52CDD427AAE194004224B3 /* CustomView.swift */,
 			);
 			path = View;
@@ -188,6 +181,29 @@
 				318AE8D49BE385F4D731CFC0 /* Pods-Conceptcube Test App.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		B52F7EE527B2D0030004E424 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				9A99F9FE27A818150021E550 /* LoginScreenViewController.swift */,
+				9AAF9ED027AA7561008BCB7B /* SignupScreenViewController.swift */,
+				9ABA6C4E27AABC7900CA955D /* MainViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		B52F7EE627B2D0220004E424 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				9ABA6C4827AA96E300CA955D /* GoogleService-Info.plist */,
+				9A75DBB927AC2E67005B9FC7 /* cards */,
+				9A5AC1C427A81A9300F6A0BC /* images */,
+				9A99F9EF27A8163D0021E550 /* Main.storyboard */,
+				9A99F9F227A8163E0021E550 /* Assets.xcassets */,
+				9A99F9F427A8163E0021E550 /* LaunchScreen.storyboard */,
+			);
+			path = Resource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
