@@ -27,19 +27,9 @@ class SignupScreenViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
         view.insetsLayoutMarginsFromSafeArea = false
-        
         setupUI()
-        
         dataPicker()
-        
-        
-        
-        
-        
-        
-        
     }
     
     func setupUI() {
@@ -116,11 +106,8 @@ class SignupScreenViewController: UIViewController {
         let datePicker = UIDatePicker()
         datePicker.datePickerMode = .date
         datePicker.addTarget(self, action: #selector(SignupScreenViewController.dateChanged(datePicker:)), for: .valueChanged)
-        
         let tapGesture = UITapGestureRecognizer(target: self, action: #selector(SignupScreenViewController.viewTapped(gestureRecognizer:)))
-        
         view.addGestureRecognizer(tapGesture)
-        
         birthdayField.inputView = datePicker
         
     }
@@ -139,7 +126,6 @@ class SignupScreenViewController: UIViewController {
         
         let dateFormatter = DateFormatter()
         dateFormatter.dateFormat = "dd/MM/yyyy"
-        
         birthdayField.text = dateFormatter.string(from: datePicker.date)
         
     }
@@ -194,7 +180,6 @@ class SignupScreenViewController: UIViewController {
         
         if passwordField.text == confirmPasswordField.text {
             FirebaseAuth.Auth.auth().createUser(withEmail: email, password: password, completion: {result, error in
-                
                 
                 guard error == nil else {
                     

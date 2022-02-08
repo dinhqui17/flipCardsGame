@@ -46,7 +46,6 @@ class MainViewController: UIViewController {
         } catch {
             print(error)
         }
-        
     }
     
     func createCards() {
@@ -71,13 +70,9 @@ class MainViewController: UIViewController {
             let items = try fm.contentsOfDirectory(atPath: path)
         
             for item in items {
-                
                 let name = item
-                
                 let cards = CardsModel(faceUp: name, isUp: false)
-                
                 listCards.append(cards)
-        
             }
             
         } catch {
