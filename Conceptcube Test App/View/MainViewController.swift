@@ -28,11 +28,6 @@ class MainViewController: UIViewController {
         generateCardModels()
         createCards()
         bgImageView.image = UIImage(named: "background.jpg")
-        
-        
-        
-       
-        
 
     }
     

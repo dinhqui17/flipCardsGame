@@ -30,19 +30,23 @@ class SignupScreenViewController: UIViewController {
         
         view.insetsLayoutMarginsFromSafeArea = false
         
+        setupUI()
+        
+        dataPicker()
+        
+        
+        
+        
+        
+        
+        
+    }
+    
+    func setupUI() {
+        
         signupHeadingLabel.text = K.Labels.signupLabel.uppercased()
         signupHeadingLabel.font = UIFont.systemFont(ofSize: 25, weight: .bold)
         signupHeadingLabel.textColor = K.Colors.primaryColor
-        
-        let datePicker = UIDatePicker()
-        datePicker.datePickerMode = .date
-        datePicker.addTarget(self, action: #selector(SignupScreenViewController.dateChanged(datePicker:)), for: .valueChanged)
-        
-        let tapGesture = UITapGestureRecognizer(target: self, action: #selector(SignupScreenViewController.viewTapped(gestureRecognizer:)))
-        
-        view.addGestureRecognizer(tapGesture)
-        
-        birthdayField.inputView = datePicker
         
         signupTopImage.image = K.Images.loginTopImage
         signupTopImage.contentMode = UIView.ContentMode.scaleToFill
@@ -105,9 +109,19 @@ class SignupScreenViewController: UIViewController {
         joinButton.titleLabel?.font = UIFont.systemFont(ofSize: 15, weight: .bold)
         joinButton.layer.cornerRadius = 15.0
         
+    }
+    
+    func dataPicker() {
         
+        let datePicker = UIDatePicker()
+        datePicker.datePickerMode = .date
+        datePicker.addTarget(self, action: #selector(SignupScreenViewController.dateChanged(datePicker:)), for: .valueChanged)
         
+        let tapGesture = UITapGestureRecognizer(target: self, action: #selector(SignupScreenViewController.viewTapped(gestureRecognizer:)))
         
+        view.addGestureRecognizer(tapGesture)
+        
+        birthdayField.inputView = datePicker
         
     }
     
@@ -198,9 +212,6 @@ class SignupScreenViewController: UIViewController {
         } else {
             showAlert(title: K.Response.error, message: K.Response.passwordDoesntMatch)
         }
-        
-        
-        
         
     }
     

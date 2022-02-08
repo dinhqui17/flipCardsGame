@@ -29,6 +29,13 @@ class LoginScreenViewController: UIViewController {
         
         emailField.delegate = self
         passwordField.delegate = self
+        setupUI()
+        
+        
+        
+    }
+    
+    func setupUI() {
         
         view.backgroundColor = K.Colors.backgroundColor
         
@@ -75,8 +82,8 @@ class LoginScreenViewController: UIViewController {
         
         signupButton.setTitleColor(K.Colors.primaryColor, for: .normal)
         
-        
     }
+    
     @IBAction func loginPressed(_ sender: UIButton) {
         
         guard let username = emailField.text, !username.isEmpty,
@@ -153,9 +160,7 @@ extension LoginScreenViewController: UITextFieldDelegate {
             loginButton.isEnabled = true
             loginButton.backgroundColor = K.Colors.primaryColor
             loginButton.setTitleColor(K.Colors.buttonTextActiveColor, for: .normal)
-            
-
-            
+        
         } else {
             
             loginButton.isEnabled = false
