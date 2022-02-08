@@ -106,8 +106,6 @@ class SignupScreenViewController: UIViewController {
         let datePicker = UIDatePicker()
         datePicker.datePickerMode = .date
         datePicker.addTarget(self, action: #selector(SignupScreenViewController.dateChanged(datePicker:)), for: .valueChanged)
-        let tapGesture = UITapGestureRecognizer(target: self, action: #selector(SignupScreenViewController.viewTapped(gestureRecognizer:)))
-        view.addGestureRecognizer(tapGesture)
         birthdayField.inputView = datePicker
         
     }

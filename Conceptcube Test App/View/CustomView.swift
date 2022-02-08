@@ -47,7 +47,6 @@ class CustomView: UIImageView {
     }
     
     
-    
     @objc func imageTapped() {
         
         card.isUp = !card.isUp

@@ -13,7 +13,6 @@ class LoginScreenViewController: UIViewController {
     
     @IBOutlet weak var loginTopImage: UIImageView!
     @IBOutlet weak var loginMainImage: UIImageView!
-    @IBOutlet weak var loginBottomImage: UIImageView!
     @IBOutlet weak var emailLabel: UILabel!
     @IBOutlet weak var passwordLabel: UILabel!
     @IBOutlet weak var emailField: UITextField!
@@ -26,12 +25,9 @@ class LoginScreenViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        
         emailField.delegate = self
         passwordField.delegate = self
         setupUI()
-        
-        
         
     }
     
@@ -41,9 +37,6 @@ class LoginScreenViewController: UIViewController {
         
         loginTopImage.image = K.Images.loginTopImage
         loginTopImage.contentMode = UIView.ContentMode.scaleToFill
-        
-        loginBottomImage.image = K.Images.loginBottomImage
-        loginBottomImage.contentMode = UIView.ContentMode.scaleToFill
         
         loginMainImage.image = K.Images.loginMainImage
         
