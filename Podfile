@@ -8,5 +8,6 @@ target 'Conceptcube Test App' do
 pod 'Firebase/Core'
 pod 'Firebase/Auth'
 pod 'IQKeyboardManagerSwift'
+  pod
 
 end
